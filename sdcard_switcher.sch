@@ -1,0 +1,571 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:SN74CBT3257D U?
+U 1 1 5C14187E
+P 6500 2400
+F 0 "U?" H 6500 3500 50  0000 C CNN
+F 1 "SN74CBT3257D" H 6500 3400 50  0000 C CNN
+F 2 "" H 6550 2400 50  0001 C CNN
+F 3 "" H 6550 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:SN74CBT3257D U?
+U 1 1 5C144034
+P 6500 4950
+F 0 "U?" H 6500 6050 50  0000 C CNN
+F 1 "SN74CBT3257D" H 6500 5950 50  0000 C CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5C144389
+P 2150 1950
+F 0 "J?" H 2050 2500 50  0000 C CNN
+F 1 "TO_DUT" H 2050 2400 50  0000 C CNN
+F 2 "" H 2150 1950 50  0001 C CNN
+F 3 "~" H 2150 1950 50  0001 C CNN
+	1    2150 1950
+	-1   0    0    -1  
+$EndComp
+Text Label 3200 1650 2    50   ~ 0
+DAT1-A
+Text Label 3200 1750 2    50   ~ 0
+DAT0-A
+Text Label 3200 1850 2    50   ~ 0
+CLK-A
+Text Label 3200 1950 2    50   ~ 0
+VDD-A
+Text Label 3200 2150 2    50   ~ 0
+CMD-A
+Text Label 3200 2250 2    50   ~ 0
+DAT-A
+Text Label 3200 2350 2    50   ~ 0
+DAT2-A
+Wire Wire Line
+	2350 1650 3200 1650
+Wire Wire Line
+	2350 1750 3200 1750
+Wire Wire Line
+	2350 1850 3200 1850
+Wire Wire Line
+	2350 1950 3200 1950
+Wire Wire Line
+	2350 2150 3200 2150
+Wire Wire Line
+	2350 2250 3200 2250
+Wire Wire Line
+	2350 2350 3200 2350
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5C144617
+P 2150 4800
+F 0 "J?" H 2050 5350 50  0000 C CNN
+F 1 "TO_PC" H 2050 5250 50  0000 C CNN
+F 2 "" H 2150 4800 50  0001 C CNN
+F 3 "~" H 2150 4800 50  0001 C CNN
+	1    2150 4800
+	-1   0    0    -1  
+$EndComp
+Text Label 3200 4500 2    50   ~ 0
+DAT1-B
+Text Label 3200 4600 2    50   ~ 0
+DAT0-B
+Text Label 3200 4700 2    50   ~ 0
+CLK-B
+Text Label 3200 4800 2    50   ~ 0
+VDD-B
+Text Label 3200 5000 2    50   ~ 0
+CMD-B
+Text Label 3200 5100 2    50   ~ 0
+DAT-B
+Text Label 3200 5200 2    50   ~ 0
+DAT2-B
+Wire Wire Line
+	2350 4500 3200 4500
+Wire Wire Line
+	2350 4600 3200 4600
+Wire Wire Line
+	2350 4700 3200 4700
+Wire Wire Line
+	2350 4800 3200 4800
+Wire Wire Line
+	2350 5000 3200 5000
+Wire Wire Line
+	2350 5100 3200 5100
+Wire Wire Line
+	2350 5200 3200 5200
+$Comp
+L taobao-components:TF_CARD_SOCKET,SELF_EJECT SDC?
+U 1 1 5C144E0A
+P 9750 3250
+F 0 "SDC?" H 10250 3250 50  0000 L CNN
+F 1 "TF_CARD_SOCKET,SELF_EJECT" H 10250 3150 50  0000 L CNN
+F 2 "" H 9750 3250 50  0001 C CNN
+F 3 "" H 9750 3250 50  0001 C CNN
+	1    9750 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1600 0    50   ~ 0
+DAT1-A
+Text Label 5000 1700 0    50   ~ 0
+DAT1-B
+Text Label 5000 1800 0    50   ~ 0
+DAT0-A
+Text Label 5000 1900 0    50   ~ 0
+DAT0-B
+Text Label 5000 2000 0    50   ~ 0
+GND
+Text Label 5000 2200 0    50   ~ 0
+CLK-A
+Text Label 5000 2300 0    50   ~ 0
+CLK-B
+Text Label 5000 4150 0    50   ~ 0
+VDD-A
+Text Label 5000 4250 0    50   ~ 0
+VDD-B
+Text Label 5000 4350 0    50   ~ 0
+CMD-A
+Text Label 5000 4450 0    50   ~ 0
+CMD-B
+Text Label 5000 4550 0    50   ~ 0
+DAT2-A
+Text Label 5000 4650 0    50   ~ 0
+DAT2-B
+Text Label 5000 4750 0    50   ~ 0
+DAT3-A
+Text Label 5000 4850 0    50   ~ 0
+DAT3-B
+Wire Wire Line
+	5000 1600 5900 1600
+Wire Wire Line
+	5000 1700 5900 1700
+Wire Wire Line
+	5000 1800 5900 1800
+Wire Wire Line
+	5000 1900 5900 1900
+Wire Wire Line
+	5000 2000 5900 2000
+Wire Wire Line
+	5000 2100 5900 2100
+Wire Wire Line
+	5000 2200 5900 2200
+Wire Wire Line
+	5000 2300 5900 2300
+Wire Wire Line
+	5000 2000 5000 2100
+Wire Wire Line
+	5000 4150 5900 4150
+Wire Wire Line
+	5000 4250 5900 4250
+Wire Wire Line
+	5000 4350 5900 4350
+Wire Wire Line
+	5000 4450 5900 4450
+Wire Wire Line
+	5000 4550 5900 4550
+Wire Wire Line
+	5000 4650 5900 4650
+Wire Wire Line
+	5000 4750 5900 4750
+Wire Wire Line
+	5000 4850 5900 4850
+Text Label 7650 1600 2    50   ~ 0
+DAT1-Y
+Text Label 7650 1850 2    50   ~ 0
+DAT0-Y
+Text Label 7650 2350 2    50   ~ 0
+CLK-Y
+Wire Wire Line
+	7650 2350 7050 2350
+Wire Wire Line
+	7050 1850 7650 1850
+Wire Wire Line
+	7650 1600 7050 1600
+Text Label 7650 4150 2    50   ~ 0
+VCC-Y
+Text Label 7650 4400 2    50   ~ 0
+CMD-Y
+Text Label 7650 4650 2    50   ~ 0
+DAT2-Y
+Text Label 7650 4900 2    50   ~ 0
+DAT3-Y
+Wire Wire Line
+	7650 4150 7050 4150
+Wire Wire Line
+	7050 4400 7650 4400
+Wire Wire Line
+	7650 4650 7050 4650
+Wire Wire Line
+	7050 4900 7650 4900
+Text Label 8800 2800 0    50   ~ 0
+DAT2-Y
+Text Label 8800 2900 0    50   ~ 0
+DAT3-Y
+Text Label 8800 3000 0    50   ~ 0
+CMD-Y
+Text Label 8800 3100 0    50   ~ 0
+VDD-Y
+Text Label 8800 3200 0    50   ~ 0
+CLK-Y
+Text Label 8800 3400 0    50   ~ 0
+DAT0-Y
+Text Label 8800 3500 0    50   ~ 0
+DAT1-Y
+$Comp
+L power:GND #PWR?
+U 1 1 5C1496D3
+P 9950 4150
+F 0 "#PWR?" H 9950 3900 50  0001 C CNN
+F 1 "GND" H 10000 3950 50  0000 C CNN
+F 2 "" H 9950 4150 50  0001 C CNN
+F 3 "" H 9950 4150 50  0001 C CNN
+	1    9950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3950 9950 4150
+Wire Wire Line
+	8800 2800 9400 2800
+Wire Wire Line
+	8800 2900 9400 2900
+Wire Wire Line
+	8800 3000 9400 3000
+Wire Wire Line
+	8800 3100 9400 3100
+Wire Wire Line
+	8800 3200 9400 3200
+Wire Wire Line
+	8800 3400 9400 3400
+Wire Wire Line
+	8800 3500 9400 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5C14A9D6
+P 8600 3450
+F 0 "#PWR?" H 8600 3200 50  0001 C CNN
+F 1 "GND" H 8650 3250 50  0000 C CNN
+F 2 "" H 8600 3450 50  0001 C CNN
+F 3 "" H 8600 3450 50  0001 C CNN
+	1    8600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3450 8600 3300
+Wire Wire Line
+	8600 3300 9400 3300
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5C14BC23
+P 4250 6700
+F 0 "J?" V 4100 7000 50  0000 L CNN
+F 1 "Conn_01x06" V 4200 7000 50  0000 L CNN
+F 2 "" H 4250 6700 50  0001 C CNN
+F 3 "~" H 4250 6700 50  0001 C CNN
+	1    4250 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C14CB77
+P 4750 6400
+F 0 "#PWR?" H 4750 6150 50  0001 C CNN
+F 1 "GND" H 4800 6200 50  0000 C CNN
+F 2 "" H 4750 6400 50  0001 C CNN
+F 3 "" H 4750 6400 50  0001 C CNN
+	1    4750 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6400 4750 6250
+Wire Wire Line
+	4750 6250 4450 6250
+Wire Wire Line
+	4450 6250 4450 6500
+Wire Wire Line
+	5900 5250 5350 5250
+Wire Wire Line
+	4350 5250 4350 6500
+Wire Wire Line
+	5900 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 5250
+Connection ~ 4350 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5C150A1A
+P 5000 5850
+F 0 "#PWR?" H 5000 5600 50  0001 C CNN
+F 1 "GND" H 5050 5650 50  0000 C CNN
+F 2 "" H 5000 5850 50  0001 C CNN
+F 3 "" H 5000 5850 50  0001 C CNN
+	1    5000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C150B0B
+P 5350 5550
+F 0 "R?" H 5450 5600 50  0000 L CNN
+F 1 "R103,0603" H 5450 5550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 5550 50  0001 C CNN
+F 3 "~" H 5350 5550 50  0001 C CNN
+	1    5350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5C150B45
+P 5350 5900
+F 0 "R?" H 5450 5950 50  0000 L CNN
+F 1 "R103,0603" H 5450 5900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 5900 50  0001 C CNN
+F 3 "~" H 5350 5900 50  0001 C CNN
+	1    5350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5850 5000 5700
+Wire Wire Line
+	5000 5700 5350 5700
+Wire Wire Line
+	5350 5700 5350 5650
+Wire Wire Line
+	5350 5700 5350 5800
+Connection ~ 5350 5700
+Wire Wire Line
+	5350 5450 5350 5250
+Connection ~ 5350 5250
+Wire Wire Line
+	5350 5250 4350 5250
+Wire Wire Line
+	5350 6000 5350 6150
+Wire Wire Line
+	5350 6150 5850 6150
+Wire Wire Line
+	5850 6150 5850 5350
+Wire Wire Line
+	5850 5350 5900 5350
+Text Label 5850 5800 1    50   ~ 0
+OE
+Text Label 5600 2800 0    50   ~ 0
+OE
+Wire Wire Line
+	5600 2800 5900 2800
+$Comp
+L power:VCC #PWR?
+U 1 1 5C157149
+P 9150 5000
+F 0 "#PWR?" H 9150 4850 50  0001 C CNN
+F 1 "VCC" H 9200 5200 50  0000 C CNN
+F 2 "" H 9150 5000 50  0001 C CNN
+F 3 "" H 9150 5000 50  0001 C CNN
+	1    9150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C15716B
+P 4250 6250
+F 0 "#PWR?" H 4250 6100 50  0001 C CNN
+F 1 "VCC" H 4300 6450 50  0000 C CNN
+F 2 "" H 4250 6250 50  0001 C CNN
+F 3 "" H 4250 6250 50  0001 C CNN
+	1    4250 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6250 4250 6500
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5C158909
+P 9150 5250
+F 0 "R?" H 9250 5300 50  0000 L CNN
+F 1 "R102,0603" H 9250 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9150 5250 50  0001 C CNN
+F 3 "~" H 9150 5250 50  0001 C CNN
+	1    9150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_GREEN,0603 D?
+U 1 1 5C158A7C
+P 9150 5650
+F 0 "D?" V 9200 5550 50  0000 R CNN
+F 1 "LED_GREEN,0603" V 9150 5550 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9150 5650 50  0001 C CNN
+F 3 "" V 9150 5650 50  0001 C CNN
+	1    9150 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C158B34
+P 9150 5900
+F 0 "#PWR?" H 9150 5650 50  0001 C CNN
+F 1 "GND" H 9200 5700 50  0000 C CNN
+F 2 "" H 9150 5900 50  0001 C CNN
+F 3 "" H 9150 5900 50  0001 C CNN
+	1    9150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5900 9150 5750
+Wire Wire Line
+	9150 5550 9150 5350
+Wire Wire Line
+	9150 5000 9150 5150
+Text Label 4750 5250 0    50   ~ 0
+HOSTSELECT
+Text Label 4750 2700 0    50   ~ 0
+HOSTSELECT
+Text Label 8300 5000 0    50   ~ 0
+HOSTSELECT
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5C15D494
+P 8300 5250
+F 0 "R?" H 8400 5300 50  0000 L CNN
+F 1 "R102,0603" H 8400 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 5250 50  0001 C CNN
+F 3 "~" H 8300 5250 50  0001 C CNN
+	1    8300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_ORANGE,0603 D?
+U 1 1 5C15D69B
+P 8300 5650
+F 0 "D?" V 8350 5550 50  0000 R CNN
+F 1 "LED_ORANGE,0603" V 8300 5550 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8300 5650 50  0001 C CNN
+F 3 "" V 8300 5650 50  0001 C CNN
+	1    8300 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C15D770
+P 8300 5900
+F 0 "#PWR?" H 8300 5650 50  0001 C CNN
+F 1 "GND" H 8350 5700 50  0000 C CNN
+F 2 "" H 8300 5900 50  0001 C CNN
+F 3 "" H 8300 5900 50  0001 C CNN
+	1    8300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5900 8300 5750
+Wire Wire Line
+	8300 5350 8300 5550
+Wire Wire Line
+	8300 5000 8300 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5C16244F
+P 3450 5000
+F 0 "#PWR?" H 3450 4750 50  0001 C CNN
+F 1 "GND" H 3500 4800 50  0000 C CNN
+F 2 "" H 3450 5000 50  0001 C CNN
+F 3 "" H 3450 5000 50  0001 C CNN
+	1    3450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5000 3450 4900
+Wire Wire Line
+	2350 4900 3450 4900
+$Comp
+L power:GND #PWR?
+U 1 1 5C163E78
+P 3450 2200
+F 0 "#PWR?" H 3450 1950 50  0001 C CNN
+F 1 "GND" H 3500 2000 50  0000 C CNN
+F 2 "" H 3450 2200 50  0001 C CNN
+F 3 "" H 3450 2200 50  0001 C CNN
+	1    3450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2200 3450 2050
+Wire Wire Line
+	2350 2050 3450 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5C169BC4
+P 7150 5450
+F 0 "#PWR?" H 7150 5200 50  0001 C CNN
+F 1 "GND" H 7200 5250 50  0000 C CNN
+F 2 "" H 7150 5450 50  0001 C CNN
+F 3 "" H 7150 5450 50  0001 C CNN
+	1    7150 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5450 7150 5350
+Wire Wire Line
+	7150 5350 7050 5350
+$Comp
+L power:GND #PWR?
+U 1 1 5C16B827
+P 7150 2900
+F 0 "#PWR?" H 7150 2650 50  0001 C CNN
+F 1 "GND" H 7200 2700 50  0000 C CNN
+F 2 "" H 7150 2900 50  0001 C CNN
+F 3 "" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2900 7150 2800
+Wire Wire Line
+	7150 2800 7050 2800
+$Comp
+L power:VCC #PWR?
+U 1 1 5C16D507
+P 7150 5150
+F 0 "#PWR?" H 7150 5000 50  0001 C CNN
+F 1 "VCC" H 7200 5350 50  0000 C CNN
+F 2 "" H 7150 5150 50  0001 C CNN
+F 3 "" H 7150 5150 50  0001 C CNN
+	1    7150 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5150 7150 5250
+Wire Wire Line
+	7150 5250 7050 5250
+$Comp
+L power:VCC #PWR?
+U 1 1 5C16F30E
+P 7150 2600
+F 0 "#PWR?" H 7150 2450 50  0001 C CNN
+F 1 "VCC" H 7200 2800 50  0000 C CNN
+F 2 "" H 7150 2600 50  0001 C CNN
+F 3 "" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2600 7150 2700
+Wire Wire Line
+	7150 2700 7050 2700
+$EndSCHEMATC
