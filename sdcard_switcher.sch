@@ -58,7 +58,7 @@ VDD-A
 Text Label 3200 2150 2    50   ~ 0
 CMD-A
 Text Label 3200 2250 2    50   ~ 0
-DAT-A
+DAT3-A
 Text Label 3200 2350 2    50   ~ 0
 DAT2-A
 Wire Wire Line
@@ -97,7 +97,7 @@ VDD-B
 Text Label 3200 5000 2    50   ~ 0
 CMD-B
 Text Label 3200 5100 2    50   ~ 0
-DAT-B
+DAT3-B
 Text Label 3200 5200 2    50   ~ 0
 DAT2-B
 Wire Wire Line
