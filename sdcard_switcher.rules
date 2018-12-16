@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1304)
+    (start_pass_no 2792)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.3)
+      (against_preferred_direction_trace_costs 2.2)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 1.9)
     )
   )
   (rule
@@ -71,9 +71,8 @@
   (class "kicad_default"
     "/DAT2-Y" "/DAT3-Y" "/CMD-Y" "/VDD-Y" "/CLK-Y" GND "/DAT0-Y" "/DAT1-Y"
     "Net-(SDC1-Pad9)" /HOSTSELECT "Net-(D1-Pad2)" /OE "/DAT1-A" "/DAT1-B" "/DAT0-A" "/DAT0-B"
-    "Net-(U1-Pad9)" "/CLK-B" "/CLK-A" "/DAT3-A" "/DAT3-B" "/DAT2-A" "/DAT2-B" "/CMD-B"
-    "/CMD-A" "/VCC-Y" "/VDD-B" "/VDD-A" "/DAT-A" "/DAT-B" "Net-(D2-Pad2)" "Net-(J3-Pad4)"
-    "Net-(J3-Pad5)" "Net-(J3-Pad6)"
+    "/CLK-B" "/CLK-A" "/DAT3-A" "/DAT3-B" "/DAT2-A" "/DAT2-B" "/CMD-B" "/CMD-A"
+    "/VDD-B" "/VDD-A" "Net-(D2-Pad2)" "Net-(J3-Pad4)" "Net-(J3-Pad5)" "Net-(J3-Pad6)" "Net-(U2-Pad7)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
