@@ -39,13 +39,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x08 J1
 U 1 1 5C144389
-P 3650 2350
-F 0 "J1" H 3550 2900 50  0000 C CNN
-F 1 "TO_DUT" H 3550 2800 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 3650 2350 50  0001 C CNN
-F 3 "~" H 3650 2350 50  0001 C CNN
-	1    3650 2350
-	1    0    0    -1  
+P 3650 2450
+F 0 "J1" H 3550 3000 50  0000 C CNN
+F 1 "TO_DUT" H 3550 2900 50  0000 C CNN
+F 2 "Connector_FFC-FPC:TE_84952-8_1x08-1MP_P1.0mm_Horizontal" H 3650 2450 50  0001 C CNN
+F 3 "~" H 3650 2450 50  0001 C CNN
+	1    3650 2450
+	1    0    0    1   
 $EndComp
 Text Label 2600 2750 0    50   ~ 0
 DAT1-A
@@ -81,7 +81,7 @@ U 1 1 5C144617
 P 3450 5700
 F 0 "J2" H 3350 6250 50  0000 C CNN
 F 1 "TO_PC" H 3350 6150 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 3450 5700 50  0001 C CNN
+F 2 "Connector_FFC-FPC:TE_84952-8_1x08-1MP_P1.0mm_Horizontal" H 3450 5700 50  0001 C CNN
 F 3 "~" H 3450 5700 50  0001 C CNN
 	1    3450 5700
 	1    0    0    -1  
@@ -3806,4 +3806,6 @@ Wire Wire Line
 	8950 1300 9350 1300
 Wire Wire Line
 	9350 1300 9350 1150
+Text Notes 2250 1900 0    50   ~ 0
+reverse the order as the component is on the B.Cu
 $EndSCHEMATC

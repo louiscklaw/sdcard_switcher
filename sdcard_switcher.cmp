@@ -1,0 +1,107 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon Dec 17 13:04:30 2018
+
+BeginCmp
+TimeStamp = 5C18745E
+Path = /5C144617
+Reference = J2;
+ValeurCmp = TO_PC;
+IdModule  = Connector_FFC-FPC:TE_84952-8_1x08-1MP_P1.0mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C187360
+Path = /5C144389
+Reference = J1;
+ValeurCmp = TO_DUT;
+IdModule  = Connector_FFC-FPC:TE_84952-8_1x08-1MP_P1.0mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C187041
+Path = /5C14BC23
+Reference = J3;
+ValeurCmp = Conn_01x06;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C187025
+Path = /5C165D90
+Reference = JP1;
+ValeurCmp = Jumper_NO_Small;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C187017
+Path = /5C158A7C
+Reference = D2;
+ValeurCmp = LED_GREEN,0603;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C187004
+Path = /5C15D69B
+Reference = D1;
+ValeurCmp = LED_ORANGE,0603;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C186F75
+Path = /5C150B45
+Reference = R4;
+ValeurCmp = R103,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C186F64
+Path = /5C150B0B
+Reference = R3;
+ValeurCmp = R103,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C186F53
+Path = /5C158909
+Reference = R2;
+ValeurCmp = R102,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C186F42
+Path = /5C15D494
+Reference = R1;
+ValeurCmp = R102,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C169948
+Path = /5C144034
+Reference = U2;
+ValeurCmp = SN74CBT3257D;
+IdModule  = Package_SO:TSSOP-16_4.4x5mm_P0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C1698EB
+Path = /5C14187E
+Reference = U1;
+ValeurCmp = SN74CBT3257D;
+IdModule  = Package_SO:TSSOP-16_4.4x5mm_P0.65mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C169ACC
+Path = /5C144E0A
+Reference = SDC1;
+ValeurCmp = TF_CARD_SOCKET,SELF_EJECT;
+IdModule  = footprint-lib:SUNTECH_ST-TF-003A;
+EndCmp
+
+EndListe
